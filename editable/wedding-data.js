@@ -1,4 +1,4 @@
-/**
+﻿/**
  * wedding-data.js — Customer-facing editable data layer for Riddhika & Pranjal
  * Threads Meet Strings — Wedding Invitation
  */
@@ -7,7 +7,7 @@ window.WEDDING_DATA = {
   couple: {
     groom: "Pranjal",
     bride: "Riddhika",
-    monogram: "R & P",
+    monogram: "",
     hashtag: "#ThreadsMeetStrings",
   },
 
@@ -15,22 +15,24 @@ window.WEDDING_DATA = {
     title: "Riddhika & Pranjal — Wedding Celebrations",
     startsAt: "2026-11-20T09:00:00+05:30",
     durationMinutes: 2160,
-    dateLabel: "20 – 21 November 2026",
+    dateLabel: "20 — 21 November 2026",
     timeLabel: "Celebrations begin Friday, 9:00 AM",
   },
 
   families: {
     brideSide: {
       parents: "Prerna & Sunilji Bhandari",
+      parentsFull: "D/O Prerna & Sunil Bhandari",
       line: "request the pleasure of your company to celebrate the wedding of their daughter",
     },
     groomSide: {
       parents: "Ratna & Sandeepji Sirohi",
+      parentsFull: "S/O Ratna & Sandeep Sirohi",
       line: "together with the family of their son",
     },
   },
 
-  invitationNote: "Two souls, two melodies, one beautiful beginning. With hearts full of gratitude, we invite you to join us as we celebrate the beginning of our forever. Your presence and blessings will make our celebrations truly special.",
+  invitationNote: "Your presence and blessings will make our celebrations truly special.",
 
   story: [
     {
@@ -60,7 +62,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-20T09:00:00+05:30",
       durationMinutes: 120,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Traditional Auspicious",
       dressCodeColor: "#C9A84C",
       note: "Invoking auspicious beginnings and divine blessings.",
@@ -71,7 +73,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-20T11:00:00+05:30",
       durationMinutes: 120,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Festive Indian",
       dressCodeColor: "#E07A5F",
       note: "A cherished ritual of love, honour, and family bonds.",
@@ -82,7 +84,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-20T13:00:00+05:30",
       durationMinutes: 180,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Haldi Yellow & Florals",
       dressCodeColor: "#E9B949",
       note: "Sunshine, laughter, colour, and all things joyful.",
@@ -93,7 +95,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-20T19:00:00+05:30",
       durationMinutes: 240,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Evening Glam & Indo-Western",
       dressCodeColor: "#3D405B",
       note: "An evening of music, dance, and melodies close to our hearts.",
@@ -104,7 +106,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-21T11:00:00+05:30",
       durationMinutes: 120,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Royal Traditional",
       dressCodeColor: "#81B29A",
       note: "Let the beats lead the way and the Royal celebrations begin.",
@@ -115,7 +117,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-21T15:00:00+05:30",
       durationMinutes: 180,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Traditional Formals",
       dressCodeColor: "#7B1E2B",
       note: "As sacred vows are exchanged, two journeys become one.",
@@ -126,7 +128,7 @@ window.WEDDING_DATA = {
       startsAt: "2026-11-21T19:00:00+05:30",
       durationMinutes: 240,
       venue: "Ashokraj Resort & Farms",
-      address: "Khandwa Road, Asrawad Khurd, Indore",
+      address: "",
       dressCode: "Elegant Formals",
       dressCodeColor: "#C9A84C",
       note: "An evening of togetherness, warm embraces, and new beginnings.",
@@ -142,10 +144,10 @@ window.WEDDING_DATA = {
   },
 
   gallery: [
-    { src: "./editable/assets/gallery-1.jpg", alt: "Haldi and Mehndi celebrations" },
-    { src: "./editable/assets/gallery-2.jpg", alt: "Sangeet night melodies and dance" },
-    { src: "./editable/assets/gallery-3.jpg", alt: "Royal mandap and sacred vows" },
-    { src: "./editable/assets/gallery-4.jpg", alt: "Joyful baraat procession" },
+    { src: "./editable/assets/gallery-1.jpg", alt: "Haldi — Boho Carnival" },
+    { src: "./editable/assets/gallery-2.jpg", alt: "Sangeet — Concert & Glam" },
+    { src: "./editable/assets/gallery-3.jpg", alt: "Phere — Earthy & Traditional" },
+    { src: "./editable/assets/gallery-4.jpg", alt: "Reception — Royal Theme" },
   ],
 
   closing: {
@@ -161,6 +163,7 @@ window.WEDDING_DATA = {
   media: {
     doorPanel: "./editable/assets/door-panel.png",
     couple: "./editable/assets/couple.png",
+    coupleLogoImage: "./editable/assets/logo.png",
     floralCorner: "./editable/assets/floral-corner.png",
     garland: "./editable/assets/garland.png",
     lantern: "./editable/assets/lantern.png",
