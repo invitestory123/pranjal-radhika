@@ -7,7 +7,7 @@ window.WEDDING_DATA = {
   couple: {
     groom: "Pranjal",
     bride: "Riddhika",
-    monogram: "",
+    monogram: "R & P",
     hashtag: "#ThreadsMeetStrings",
   },
 
