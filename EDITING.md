@@ -48,10 +48,11 @@ Edit `contacts` array in `editable/wedding-data.js`:
 
 ### Media & Assets
 Replace files directly in `editable/assets/` or update `media`:
-- Door panel graphic: `editable/assets/door-panel.png`
-- Couple illustration: `editable/assets/couple.png`
+- Door panel graphic: `editable/assets/door-panel.webp` (or `.png`)
+- Couple illustration: `editable/assets/couple.webp` (or `.png`)
 - Ambient music: `editable/assets/ambient-shehnai.mp3`
-- Story & gallery images: `story-1.jpg`, `story-2.jpg`, `gallery-1.jpg`, etc.
+- Story & gallery images: `story-1.webp`, `story-2.webp`, `gallery-1.webp`, etc. (or `.jpg`)
+*Note: High-performance compressed WebP assets are preloaded automatically for instant rendering.*
 
 ---
 

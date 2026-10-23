@@ -40,19 +40,19 @@ window.WEDDING_DATA = {
       year: "2023",
       title: "Threads Meet Strings",
       text: "Two souls, two melodies, and a quiet rhythm that felt like coming home. A conversation that tuned our hearts together.",
-      image: "./editable/assets/story-1.jpg",
+      image: "./editable/assets/story-1.webp",
     },
     {
       year: "2025",
       title: "Woven in Love",
       text: "With the warmth of two families and blessings all around, we celebrated our Roka and took the first step toward our forever.",
-      image: "./editable/assets/story-2.jpg",
+      image: "./editable/assets/story-2.webp",
     },
     {
       year: "2026",
       title: "Tuned for Forever",
       text: "A sacred promise, hands held tight, and a lifetime of love waiting to unfold in the company of everyone we cherish.",
-      image: "./editable/assets/story-3.jpg",
+      image: "./editable/assets/story-3.webp",
     },
   ],
 
@@ -145,10 +145,10 @@ window.WEDDING_DATA = {
   },
 
   gallery: [
-    { src: "./editable/assets/gallery-1.jpg", alt: "Haldi — Boho Carnival" },
-    { src: "./editable/assets/gallery-2.jpg", alt: "Sangeet — Concert & Glam" },
-    { src: "./editable/assets/gallery-3.jpg", alt: "Phere — Earthy & Traditional" },
-    { src: "./editable/assets/gallery-4.jpg", alt: "Reception — Royal Theme" },
+    { src: "./editable/assets/gallery-1.webp", alt: "Haldi — Boho Carnival" },
+    { src: "./editable/assets/gallery-2.webp", alt: "Sangeet — Concert & Glam" },
+    { src: "./editable/assets/gallery-3.webp", alt: "Phere — Earthy & Traditional" },
+    { src: "./editable/assets/gallery-4.webp", alt: "Reception — Royal Theme" },
   ],
 
   closing: {
@@ -162,13 +162,13 @@ window.WEDDING_DATA = {
   ],
 
   media: {
-    doorPanel: "./editable/assets/door-panel.png",
-    couple: "./editable/assets/couple.png",
-    coupleLogoImage: "./editable/assets/logo.png",
-    floralCorner: "./editable/assets/floral-corner.png",
-    garland: "./editable/assets/garland.png",
-    lantern: "./editable/assets/lantern.png",
-    footerFloral: "./editable/assets/footer-floral.jpg",
+    doorPanel: "./editable/assets/door-panel.webp",
+    couple: "./editable/assets/couple.webp",
+    coupleLogoImage: "./editable/assets/logo.webp",
+    floralCorner: "./editable/assets/floral-corner.webp",
+    garland: "./editable/assets/garland.webp",
+    lantern: "./editable/assets/lantern.webp",
+    footerFloral: "./editable/assets/footer-floral.webp",
     ambientAudio: "./editable/assets/bg.mp3",
   },
 };

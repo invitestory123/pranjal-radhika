@@ -18,8 +18,51 @@
     <meta name="twitter:description" content="Threads Meet Strings — Two souls, two melodies, one beautiful beginning. Join us in celebrating on 20-21 November 2026 at Ashokraj Resort & Farms, Indore." />
     <meta name="twitter:image" content="./editable/assets/couple.png" />
 
+    <!-- Preload Critical Above-The-Fold Assets -->
+    <link rel="preload" as="image" href="./editable/assets/door-panel.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="./editable/assets/logo.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="./editable/assets/couple.webp" type="image/webp" />
+
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <script src="./editable/wedding-data.js"></script>
+    <script>
+      // Immediately preload all invitation assets concurrently
+      (function() {
+        try {
+          var data = window.WEDDING_DATA || {};
+          var urls = [
+            './editable/assets/door-panel.webp',
+            './editable/assets/logo.webp',
+            './editable/assets/couple.webp'
+          ];
+          if (data.media) {
+            Object.keys(data.media).forEach(function(k) {
+              var val = data.media[k];
+              if (typeof val === 'string' && /\.(webp|png|jpe?g|svg)$/i.test(val)) {
+                if (urls.indexOf(val) === -1) urls.push(val);
+              }
+            });
+          }
+          if (Array.isArray(data.story)) {
+            data.story.forEach(function(s) {
+              if (s && s.image && urls.indexOf(s.image) === -1) urls.push(s.image);
+            });
+          }
+          if (Array.isArray(data.gallery)) {
+            data.gallery.forEach(function(g) {
+              if (g && g.src && urls.indexOf(g.src) === -1) urls.push(g.src);
+            });
+          }
+          urls.forEach(function(src) {
+            var img = new Image();
+            img.decoding = 'async';
+            img.src = src;
+          });
+        } catch(e) {
+          console.warn('Preload notice:', e);
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="./assets/index-BrMSd8jH.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/styles-D75Ml1pI.css">
   </head>
