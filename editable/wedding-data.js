@@ -1,12 +1,12 @@
-﻿/**
+/**
  * wedding-data.js — Customer-facing editable data layer for Riddhika & Pranjal
  * Threads Meet Strings — Wedding Invitation
  */
 
 window.WEDDING_DATA = {
   couple: {
-    groom: "Pranjal",
-    bride: "Riddhika",
+    groom: "PRANJAL",
+    bride: "RIDDHIKA",
     monogram: "",
     hashtag: "#ThreadsMeetStrings",
   },
@@ -15,20 +15,21 @@ window.WEDDING_DATA = {
     title: "Riddhika & Pranjal — Wedding Celebrations",
     startsAt: "2026-11-20T09:00:00+05:30",
     durationMinutes: 2160,
-    dateLabel: "20 — 21 November 2026",
+    dateLabel: "20-21 November 2026",
     timeLabel: "Celebrations begin Friday, 9:00 AM",
   },
 
   families: {
+    inviteLine: "We request the pleasure of your company to celebrate the wedding of",
     brideSide: {
-      parents: "Prerna & Sunilji Bhandari",
-      parentsFull: "D/O Prerna & Sunil Bhandari",
-      line: "request the pleasure of your company to celebrate the wedding of their daughter",
+      parents: "Prerna Sunil Bhandari",
+      parentsFull: "D/O Prerna Sunil Bhandari",
+      line: "We request the pleasure of your company to celebrate the wedding of",
     },
     groomSide: {
-      parents: "Ratna & Sandeepji Sirohi",
-      parentsFull: "S/O Ratna & Sandeep Sirohi",
-      line: "together with the family of their son",
+      parents: "Ratna Sandeep Sirohi",
+      parentsFull: "S/O Ratna Sandeep Sirohi",
+      line: "",
     },
   },
 
@@ -156,8 +157,8 @@ window.WEDDING_DATA = {
   },
 
   contacts: [
-    { name: "Bhandari Family (Bride's Side)", phone: "+919826000000" },
-    { name: "Sirohi Family (Groom's Side)", phone: "+919827000000" },
+    { name: "Bhandari Family (Bride's Side)", phone: "+918839788671" },
+    { name: "Sirohi Family (Groom's Side)", phone: "+919425001616" },
   ],
 
   media: {
