@@ -13,10 +13,10 @@ window.WEDDING_DATA = {
 
   mainEvent: {
     title: "Riddhika & Pranjal — Wedding Celebrations",
-    startsAt: "2026-11-20T09:00:00+05:30",
+    startsAt: "2026-11-20T09:15:00+05:30",
     durationMinutes: 2160,
     dateLabel: "20-21 November 2026",
-    timeLabel: "Celebrations begin Friday, 9:00 AM",
+    timeLabel: "Celebrations begin Friday, 9:15 AM",
   },
 
   families: {
@@ -37,19 +37,16 @@ window.WEDDING_DATA = {
 
   story: [
     {
-      year: "2023",
       title: "Threads Meet Strings",
       text: "Two souls, two melodies, and a quiet rhythm that felt like coming home. A conversation that tuned our hearts together.",
       image: "./editable/assets/story-1.webp",
     },
     {
-      year: "2025",
       title: "Woven in Love",
       text: "With the warmth of two families and blessings all around, we celebrated our Roka and took the first step toward our forever.",
       image: "./editable/assets/story-2.webp",
     },
     {
-      year: "2026",
       title: "Tuned for Forever",
       text: "A sacred promise, hands held tight, and a lifetime of love waiting to unfold in the company of everyone we cherish.",
       image: "./editable/assets/story-3.webp",
@@ -60,7 +57,7 @@ window.WEDDING_DATA = {
     {
       key: "ganesh-pujan",
       name: "Chalk & Ganesh Pujan",
-      startsAt: "2026-11-20T09:00:00+05:30",
+      startsAt: "2026-11-20T09:15:00+05:30",
       durationMinutes: 120,
       venue: "Ashokraj Resort & Farms",
       address: "",
