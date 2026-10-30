@@ -56,7 +56,7 @@ window.WEDDING_DATA = {
   events: [
     {
       key: "ganesh-pujan",
-      name: "Ganesh Pujan",
+      name: "Chaak & Ganesh Pujan",
       startsAt: "2026-11-20T09:15:00+05:30",
       durationMinutes: 120,
       venue: "Ashokraj Resort & Farms",
